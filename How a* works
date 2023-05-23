@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<style>
+body {
+  background-color: red;
+}
+</style>
+</head>
+
+<body style="color:Black;">
+
+<title>How A* Pathfinding works</title>
+
+<h1>What is A*?</h1>
+<p>A* (pronounced A Star) is an algorithm that searches for the shortest way to reach it's goal. Here is a gif showing a search in progress:<br></p1>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Astar_progress_animation.gif" width=250 height=250>
+<a href="https://en.wikipedia.org/wiki/A*_search_algorithm">Image source</a> 
+
+<h1>Components</h1>
+<p><b>NODE</b> - Each grid where the pathfinding takes place is made up of something called nodes. Nodes are areas where the robot is allowed to go through.<br><br>
+
+
+<b>G</b> - How much movement cost will it take to reach a grid, creating a path.<br>
+<b>H</b> - How much movement cost will it take to reach the starting grid to the end grid.<br>
+<b>F</b> - The sum of G and H<br></p>
+
+<br></p>
+
+<h1>Example</h1>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/a_-search-algorithm-2.png" width=250 height=250>
+<a href="https://www.geeksforgeeks.org/a-search-algorithm/">Image source</a> 
+<br><br><br><br>
+<a href="mailto:ayyub.reese@students.nisd.net">Made by Ayyub Reese</a>
+
+</body>
+
+</html>
